@@ -47,4 +47,4 @@ class TutorialPipeline(object):
                 mailto_list=list(config.get('mailto_list','list_1').split(','))
                 my_mail.send_mail(mailto_list,title,item['link'])
             else:
-                print '不发送邮件..'
+                print '不发送邮件...'
